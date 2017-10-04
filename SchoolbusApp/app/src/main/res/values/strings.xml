@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SchoolbusApp</string>
+    <string name="list_student">List Student</string>
+    <string name="morning">Morning</string>
+    <string name="evening">Evening</string>
+    <string name="map">แผนที่</string>
+    <string name="Edit_Profile">Edit Profile</string>
+    <string name="driver">DRIVER</string>
+    <string name="teacher">TEACHER</string>
+    <string name="parent">PARENT</string>
+    <string name="update">UPDATE</string>
+    <string name="back">BACK</string>
+
+</resources>

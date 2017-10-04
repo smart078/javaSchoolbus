@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorBlueGray_Pastel"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/linear_Menu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_Menu"
+        android:id="@+id/id_teacher"
+        android:paddingTop="5dp"
+        android:paddingBottom="8dp"
+        android:background="@color/colorBlueGray_Pastel"
+        android:gravity="center"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Teacher : "
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="xxxxxxxx"
+            android:id="@+id/tv_tv_nameTeacher"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/id_teacher"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Student"
+            android:id="@+id/btn_list_student"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlueGray_Pastel"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD Student"
+            android:id="@+id/btn_add_student"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlueGray_Pastel"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile Teacher"
+            android:id="@+id/btn_edit_profile"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlueGray_Pastel"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:id="@+id/btn_history"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlueGray_Pastel"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

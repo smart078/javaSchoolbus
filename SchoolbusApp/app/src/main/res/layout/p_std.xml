@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/status_std1"
+
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status Student"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Morning"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlueGray_Pastel"
+            android:layout_below="@id/status_std1"
+            android:gravity="center"
+            android:id="@+id/tv_Morning"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@color/colorBlueGray_Pastel"
+            android:weightSum="1"
+            android:layout_below="@id/tv_Morning"
+            android:id="@+id/list_morning"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/boy"
+                    android:layout_gravity="center"
+                    android:id="@+id/iv_01"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="30dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID_STD : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Morning_id"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Morning_name"
+                            android:textSize="15sp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Level : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Morning_edu"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Parent : "-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="xxxx"-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:id="@+id/TVSTD_Morning_parent"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Tel : "-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="xxxx"-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:id="@+id/TVSTD_Morning_tel"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                    <!--</LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Status : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Morning_status"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evening"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlueGray_Pastel"
+            android:layout_below="@id/list_morning"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_evening"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:background="@color/colorBlueGray_Pastel"
+            android:weightSum="1"
+            android:layout_below="@id/tv_evening"
+            android:id="@+id/list_evening"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/boy"
+                    android:layout_gravity="center"
+                    android:id="@+id/iv_02"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="30dp"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ID_STD : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Evening_id"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Evening_name"
+                            android:textSize="15sp"
+                            />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Level : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Evening_edu"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Parent : "-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="xxxx"-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:id="@+id/TVSTD_Evening_parent"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                    <!--</LinearLayout>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="horizontal">-->
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="Tel : "-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                        <!--<TextView-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="xxxx"-->
+                            <!--android:textColor="#FFFFFF"-->
+                            <!--android:id="@+id/TVSTD_Evening_tel"-->
+                            <!--android:textSize="10sp"-->
+                            <!--/>-->
+                    <!--</LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Status : "
+                            android:textColor="#FFFFFF"
+                            android:textSize="15sp"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="xxxx"
+                            android:textColor="#FFFFFF"
+                            android:id="@+id/TVSTD_Evening_status"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="History"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@color/colorBlueGray_Pastel"
+            android:id="@+id/BTN_HISTORY_PARENT"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

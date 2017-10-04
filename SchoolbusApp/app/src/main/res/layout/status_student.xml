@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlueGray_Pastel"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Status Student"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorWhite"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ID : "-->
+                <!--android:textColor="@color/colorBlueGray_Pastel"-->
+                <!--android:textSize="18sp"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TVCODE2"
+                android:text="XXXXXXXXXXXX"
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name Student : "
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/std_name"
+                android:text="XXXXXXXXXXXX"
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level : "
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/std_edu"
+                android:text="XXXXXXXXXXXX"
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parent : "
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/parent_name"
+                android:text="XXXXXXXXXXXX"
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tel : "
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/parent_tel"
+                android:text="XXXXXXXXXXXX"
+                android:textColor="@color/colorBlueGray_Pastel"
+                android:textSize="18sp"
+
+                />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/parent_id"-->
+                <!--android:text=" ID "-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:textSize="15sp"-->
+                <!--/>-->
+
+        </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="IN_BUS"
+            android:textColor="@color/colorBlueGray_Pastel"
+            android:textStyle="bold"
+            android:layout_below="@+id/tv1"
+            android:backgroundTint="@color/colorWhite"
+            android:id="@+id/btn1"
+            />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="DROPPED"
+            android:textColor="@color/colorBlueGray_Pastel"
+            android:textStyle="bold"
+            android:layout_below="@id/btn1"
+            android:backgroundTint="@color/colorWhite"
+            android:id="@+id/btn2"
+            />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Absent"
+            android:textColor="@color/colorBlueGray_Pastel"
+            android:textStyle="bold"
+            android:layout_below="@id/btn2"
+            android:backgroundTint="@color/colorWhite"
+            android:id="@+id/btn3"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Number Digit"
+            android:textColor="@color/colorBlueGray_Pastel"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorWhite"
+            android:id="@+id/btn_Number_OTP"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="History"
+        android:textColor="@color/colorBlueGray_Pastel"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorWhite"
+        android:id="@+id/btn_history_statusSTD"
+
+        />
+
+
+</RelativeLayout>

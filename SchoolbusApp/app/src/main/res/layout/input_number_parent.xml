@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorBlueGray_Pastel"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Input Number Phone"
+                android:textSize="23sp"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Input Name Parent"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBlueGray_Pastel"
+                android:hint="NameParent"
+                android:textAlignment="center"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/EDT_INPUT_NAME_PARENT"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Input Number Phone"
+                android:textSize="20sp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"/>
+
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorBlueGray_Pastel"
+                android:hint="NumberPhone"
+                android:textAlignment="center"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/EDT_INPUT_NUMBER"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginTop="20dp"
+
+                />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:paddingRight="50dp"
+                android:paddingLeft="50dp"
+                android:text="Submit"
+                android:backgroundTint="@color/colorBlueGray_Pastel"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/btn_submit_numberPhone"
+                />
+
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSiena"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="Driver Login to access
+ system."
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:paddingLeft="20dp"
+            android:hint="USERNAME"
+            android:textSize="18sp"
+            android:id="@+id/EDT_USER_Driver"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:id="@+id/EDT_PASSWORD_Driver"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="18dp"
+            android:background="@color/colorBroen_Pastel"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnlog_driver"
+
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
